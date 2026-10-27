@@ -37,7 +37,7 @@ In a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sentinelden/anomalykit-spm", from: "3.3.0"),
+    .package(url: "https://github.com/sentinelden/anomalykit-spm", from: "3.4.0"),
 ],
 targets: [
     .target(name: "App", dependencies: [
