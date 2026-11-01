@@ -9,15 +9,15 @@ import PackageDescription
 
 let package = Package(
     name: "AnomalyKitSDK",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(name: "AnomalyKitSDK", targets: ["AnomalyKitSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "AnomalyKitSDK",   // 4.0.0
-            url: "https://api.sentinelden.com/spm/anomalykit_sdk/4.0.0/AnomalyKitSDK.xcframework.zip",
-            checksum: "2ab6914881d00638e946f3811d46dc74db8d29d9a7f2b288b0bca00b4f6a1b5a"
+            name: "AnomalyKitSDK",   // 5.0.0
+            url: "https://api.sentinelden.com/spm/anomalykit_sdk/5.0.0/AnomalyKitSDK.xcframework.zip",
+            checksum: "89481a1f9cd3d6d0d5f253aca6af99b452c88caa24e1db290fe2b6f7a59b8309"
         ),
     ]
 )
