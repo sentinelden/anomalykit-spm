@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "AnomalyKitSDK",   // 5.0.0
-            url: "https://api.sentinelden.com/spm/anomalykit_sdk/5.0.0/AnomalyKitSDK.xcframework.zip",
-            checksum: "89481a1f9cd3d6d0d5f253aca6af99b452c88caa24e1db290fe2b6f7a59b8309"
+            name: "AnomalyKitSDK",   // 5.0.1
+            url: "https://api.sentinelden.com/spm/anomalykit_sdk/5.0.1/AnomalyKitSDK.xcframework.zip",
+            checksum: "ba242027fe2acf1da31e42953b5bb3b11df77fa8067935f3595e97d61901af53"
         ),
     ]
 )
